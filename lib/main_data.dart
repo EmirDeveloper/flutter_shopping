@@ -6,17 +6,13 @@ const MainCategory = [
   Category(id: 'c1', name: 'Nike', color: Color.fromARGB(255, 203, 202, 202)),
   Category(id: 'c2', name: 'Puma', color: Color.fromARGB(255, 203, 202, 202)),
   Category(id: 'c3', name: 'Adidas', color: Color.fromARGB(255, 203, 202, 202)),
-  Category(
-      id: 'c4', name: 'New Balance', color: Color.fromARGB(255, 203, 202, 202)),
+  Category(id: 'c4', name: 'New Balance', color: Color.fromARGB(255, 203, 202, 202)),
   Category(id: 'c5', name: 'Gucci', color: Color.fromARGB(255, 203, 202, 202)),
   Category(id: 'c6', name: 'Veja', color: Color.fromARGB(255, 203, 202, 202)),
-  Category(
-      id: 'c7', name: 'Converse', color: Color.fromARGB(255, 203, 202, 202)),
+  Category(id: 'c7', name: 'Converse', color: Color.fromARGB(255, 203, 202, 202)),
   Category(id: 'c9', name: 'Reebok', color: Color.fromARGB(255, 203, 202, 202)),
-  Category(
-      id: 'c15', name: 'Air Jordan', color: Color.fromARGB(255, 203, 202, 202)),
-  Category(
-      id: 'c16', name: 'Balenciaga', color: Color.fromARGB(255, 203, 202, 202)),
+  Category(id: 'c15', name: 'Air Jordan', color: Color.fromARGB(255, 203, 202, 202)),
+  Category(id: 'c16', name: 'Balenciaga', color: Color.fromARGB(255, 203, 202, 202)),
 ];
 
 const MainSneaker = [

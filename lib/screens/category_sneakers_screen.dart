@@ -5,10 +5,6 @@ import '../widgets/sneakers_item.dart';
 class CategorySneakersScreen extends StatelessWidget {
   
   static const routeName = '/category-Sneakers';
-  // final String categoryId;
-  // final String categoryName;
-
-  // CategorySneakersScreen(this.categoryId, this.categoryName);
 
   @override
   Widget build(BuildContext context) {

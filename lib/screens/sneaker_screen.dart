@@ -49,7 +49,7 @@ class SneakerScreen extends StatelessWidget {
                     ),
                     Card(
                       child: Text(
-                        'Price: \$${selectSneaker.price}',
+                        'Price: ${selectSneaker.price} TMT',
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold),
                       ),

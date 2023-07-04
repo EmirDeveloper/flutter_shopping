@@ -69,7 +69,7 @@ class HomeScreen extends StatelessWidget {
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
                             Text(
-                              '\$${trainer.price}',
+                              '${trainer.price} TMT',
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
                             Row(
