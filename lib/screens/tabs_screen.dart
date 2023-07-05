@@ -40,7 +40,7 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     var currentIndex = 0;
     return DefaultTabController(
-      length: 3,
+      length: 4,
       // initialIndex: 0,
       child: Scaffold(
           appBar: AppBar(
@@ -70,10 +70,8 @@ class _TabsScreenState extends State<TabsScreen> {
               },
               splashColor: Colors.transparent,
               highlightColor: Colors.transparent,
-              child: Stack(
-                children: [
-                  
-                  BottomNavigationBar(
+              child: Stack(children: [
+                BottomNavigationBar(
                     backgroundColor: Color.fromARGB(255, 45, 152, 174),
                     type: BottomNavigationBarType.shifting,
                     onTap: _selectPage,

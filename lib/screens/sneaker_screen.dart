@@ -1,3 +1,5 @@
+import 'dart:js_util';
+
 import '../main_data.dart';
 import 'package:flutter/material.dart';
 
@@ -75,12 +77,10 @@ class SneakerScreen extends StatelessWidget {
                             fontSize: 20, fontWeight: FontWeight.bold),
                       ),
                     ),
-                    Card(
-                      child: Text(
-                        'Delivery: ${selectSneaker.delivery}min',
-                        style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
-                      ),
+                    TextButton(
+                      onPressed: () => {},
+                      child: Text('Phone: ${selectSneaker.phone}', style: TextStyle(
+                            fontSize: 15, fontWeight: FontWeight.bold),),
                     ),
                   ],
                 ),
@@ -92,7 +92,9 @@ class SneakerScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () => toggleFavorite(sneakerId),
         backgroundColor: Color.fromARGB(255, 45, 152, 174),
-        child: Icon(isSneakerFavorite(sneakerId) ? Icons.favorite : Icons.favorite_border),
+        child: Icon(isSneakerFavorite(sneakerId)
+            ? Icons.favorite
+            : Icons.favorite_border),
       ),
     );
   }

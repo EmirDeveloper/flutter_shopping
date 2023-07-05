@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                           Positioned(
                               right: 10,
                               child: Container(
-                                width: 150,
+                                width: 200,
                                 color: Colors.black12,
                                 padding: EdgeInsets.symmetric(
                                     vertical: 5, horizontal: 20),

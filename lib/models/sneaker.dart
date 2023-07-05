@@ -1,4 +1,7 @@
+import 'dart:math';
+
 import 'package:flutter/foundation.dart';
+import 'package:intl/intl.dart';
 
 class Sneaker {
   final String id;
@@ -10,6 +13,7 @@ class Sneaker {
   final int delivery;
   final String gender;
   final String color;
+  final String phone;
 
   const Sneaker({
     required this.id,
@@ -21,5 +25,6 @@ class Sneaker {
     required this.delivery,
     required this.color,
     required this.gender,
+    required this.phone,
   });
 }
