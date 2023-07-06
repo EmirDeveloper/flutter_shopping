@@ -11,7 +11,11 @@ class FavoriteScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     if (favoriteSneaker.isEmpty) {
       return Center(
-        child: Text('Not Favorites!'),
+        child: Text(
+          'Not Favorites yet!',
+          style: TextStyle(
+              color: const Color.fromARGB(255, 45, 152, 174), fontSize: 20, fontWeight: FontWeight.bold),
+        ),
       );
     } else {
       return ListView.builder(

@@ -1,5 +1,3 @@
-import 'dart:js_util';
-
 import '../main_data.dart';
 import 'package:flutter/material.dart';
 
@@ -80,7 +78,7 @@ class SneakerScreen extends StatelessWidget {
                     TextButton(
                       onPressed: () => {},
                       child: Text('Phone: ${selectSneaker.phone}', style: TextStyle(
-                            fontSize: 15, fontWeight: FontWeight.bold),),
+                            fontSize: 18, fontWeight: FontWeight.bold),),
                     ),
                   ],
                 ),

@@ -44,12 +44,7 @@ class MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        canvasColor: const Color.fromRGBO(
-          255,
-          254,
-          229,
-          1,
-        ),
+        canvasColor: Color.fromARGB(255, 249, 249, 238),
         fontFamily: 'Roboto',
         textTheme: ThemeData.light().textTheme.copyWith(
               bodyLarge: const TextStyle(
